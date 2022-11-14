@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    background-color: black;
+    background-image: url("https://www.sony-mea.com/image/bc6d25fa6371c2899ce704a2bed7614c?fmt=png-alpha&wid=720");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+.container a{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.section2 h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+}
